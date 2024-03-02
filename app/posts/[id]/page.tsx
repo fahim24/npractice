@@ -5,7 +5,9 @@ import getPostComments from "@/lib/getPostComments";
 import React, { Suspense } from "react";
 
 type ParamsProps = {
-	params: { id: string };
+	params: {
+		id: string;
+	};
 };
 
 export async function generateMetadata({ params }: ParamsProps) {
